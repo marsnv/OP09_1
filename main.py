@@ -1,6 +1,5 @@
 #API_TOKEN = '6982046754:AAEmnJgL_VLyAH9xV2jE5jrgqUeGy8MWeuo'
 import time
-
 import telebot
 from telebot import types
 import threading
