@@ -6,7 +6,7 @@ from telebot import types
 import threading
 import datetime
 
-TOKEN = '6805672425:AAHkG0e4fQWXTF6xliViVxNzds8W1TEzHo4'
+TOKEN = '6982046754:AAEmnJgL_VLyAH9xV2jE5jrgqUeGy8MWeuo'
 bot = telebot.TeleBot(TOKEN)
 
 def send_time():
