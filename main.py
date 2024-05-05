@@ -1,12 +1,10 @@
-#PROD_API_TOKEN = '6982046754:AAEmnJgL_VLyAH9xV2jE5jrgqUeGy8MWeuo'
-#DEV_API_TOKEN = '6805672425:AAHkG0e4fQWXTF6xliViVxNzds8W1TEzHo4'
 import time
 import telebot
 from telebot import types
 import threading
 import datetime
 
-TOKEN = '6805672425:AAHkG0e4fQWXTF6xliViVxNzds8W1TEzHo4'
+TOKEN = 'my-token'
 bot = telebot.TeleBot(TOKEN)
 
 def send_time():
