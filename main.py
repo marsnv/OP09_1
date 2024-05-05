@@ -27,7 +27,7 @@ def start_command(message):
 
 @bot.message_handler(commands=['hello'])
 def hello_command(message):
-    #f2
+    #f3
     bot.send_message(message.chat.id, "Привет!")
 
 @bot.message_handler(commands=['help'])
